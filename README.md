@@ -1,3 +1,4 @@
+```markdown
 ---
 
 # Uniform Cost Search (UCS) Algorithm
@@ -47,6 +48,7 @@ The **Haversine formula** calculates the shortest distance between two points on
 
 #### Formula:
 Given two cities with coordinates `(lat1, lon1)` and `(lat2, lon2)`:
+
 ```python
 R = 6371.0  # Radius of the Earth in kilometers
 phi_1 = math.radians(lat1)
@@ -96,7 +98,6 @@ If no path exists between the cities, the program will return:
 Path not found!
 ```
 
-
 ## Requirements
 
 - Python 3.x
@@ -107,3 +108,4 @@ Path not found!
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+```
